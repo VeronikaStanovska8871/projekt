@@ -1,0 +1,37 @@
+{
+    "employees": [
+        { 
+           "id": 1,
+           "fname":"Noah",
+           "lname":"Smith",
+           "email":"smith@gmail.com",
+           "age":23,
+           "job":"front-end developer"
+        },
+        { 
+            "id": 2,
+            "fname":"Mia",
+            "lname":"Wilson",
+            "age":27,
+            "email":"wilson@gmail.cpom",
+            "job":"back-end developer"
+         },
+         { 
+            "id": 3,
+            "fname":"Jack",
+            "lname":"Tracy",
+            "age":32,
+            "email":"tracy@gmail.cpom",
+            "job":"back-end developer"
+         },
+         { 
+            "id": 4,
+            "fname":"Callum",
+            "lname":"Brown",
+            "age":26,
+            "email":"tracy@gmail.cpom",
+            "job":"front-end developer"
+         } 
+    ]
+
+}
