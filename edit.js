@@ -14,7 +14,7 @@ const editEmployee = async (e) => {
         job: form.job.value
     }
 
-    await fetch('http://localhost:3000/employees', {
+    await fetch('http://localhost:3000/employees/'+id, {
         method: 'PUT',
         body: JSON.stringify(doc),
         headers: {'Content-Type': 'application/json'}
