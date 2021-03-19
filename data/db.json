@@ -9,12 +9,12 @@
       "job": "back-end developer"
     },
     {
-      "id": 4,
-      "fname": "Callum",
+      "fname": "Callumn",
       "lname": "Brown",
-      "age": 26,
-      "email": "tracy@gmail.cpom",
-      "job": "front-end developer"
+      "email": "callumn@gmail.com",
+      "age": "34",
+      "job": "back-end developer",
+      "id": 4
     },
     {
       "fname": "Noah",
