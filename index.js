@@ -9,12 +9,12 @@ const renderEmployees = async() =>{
     let template = '';
     employe.forEach(employee => { 
         template += 
-        `<div class="employees bg-gray-100 rounded-3xl mt-5 py-5 pl-5 pr-72 shadow-2xl flex flex-col">
-        <h3 class="text-2xl text-pink-500 font-semibold">${employee.fname} ${employee.lname}</h3>
+        `<div class="employees bg-gray-100 rounded-3xl my-5 py-5 pl-5 pr-5 shadow-2xl flex flex-col">
+        <h3 class="text-2xl bg-black text-white rounded-lg py-2 pl-2 pr-72 font-semibold">${employee.fname} ${employee.lname}</h3>
         <p class="mt-4">${employee.age} years old</p>
         <p> <span class="font-bold">Email address: </span>${employee.email}</p>
         <p class="mb-10"> <span class="font-bold"> Work as: </span>${employee.job}</p>
-        <a class="text-white bg-yellow-400 px-7 py-4 rounded-xl self-start" href="/edit.html">EDIT</a>
+        <a class="text-white bg-black px-7 py-4 rounded-xl self-start" href="/edit.html?id=${employee.id}">EDIT</a>
         </div>`
     })
 

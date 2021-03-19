@@ -4,9 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Edit</title>
 </head>
-<body>
-    
+<body class="bg-gradient-to-r from-green-400 to-blue-500 box-border flex flex-col items-center">
+    <div class="edit">
+        <div class="mt-20 bg-gray-100 py-20 px-36 rounded-3xl flex flex-col shadow-2xl">
+            <h3 class="my-10 text-2xl font-bold m-auto">EDIT EMPLOYEE</h3>
+            <form method="PUT">
+                <label class="font-semibold text-xl"for="fname">First name:</label><br>
+                <input class="rounded-xl py-2 pr-36 pl-2 my-4"type="text" id="fname" name="fname"><br>
+                <label class="font-semibold text-xl"for="lname">Last name:</label><br>
+                <input class="rounded-xl py-2 pr-36 pl-2 my-4" type="text" id="lname" name="lname"><br>
+                <label class="font-semibold text-xl"for="email">Email:</label><br>
+                <input class="rounded-xl py-2 pr-36 pl-2 my-4" type="text" id="email" name="email"><br>
+                <label class="font-semibold text-xl"for="age">Age:</label><br>
+                <input class="rounded-xl py-2 pr-36 pl-2 my-4" type="text" id="age" name="age"><br>
+                <label class="font-semibold text-xl"for="job">Job:</label><br>
+                <input class="rounded-xl py-2 pr-36 pl-2 mt-4" type="text" id="job" name="job"><br>
+                <button class="font-semibold text-xl py-4 px-10 text-white bg-black rounded-2xl mt-10 justify-self-center ml-28">SAVE</button>
+              </form>
+    </div>
+    <button class="delete bg-black py-4 px-10 mt-10 rounded-xl text-white font-semibold">DELETE</button>
+    <script src="edit.js"></script>
 </body>
 </html>
